@@ -1,0 +1,181 @@
+<!-- <app-layout title="Home"></app-layout> -->
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Seguridad</ion-card-title>
+    </ion-card-header>
+  
+    <ion-item>
+      <ion-label>Off/On</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-button expand="block" fill="clear" shape="round">
+        Mas...
+      </ion-button>
+    </ion-item>
+  </ion-card>
+
+  <!-- ---------- TABLA ---------- -->
+  <table>
+
+    <!-- ----- FILA 1 ----- -->
+
+    <tr>
+
+      <!-- --- COLUMNA 1 --- --> 
+
+      <th class="idk">
+        <ion-card>
+          <ion-card-header class="header">
+            <ion-card-title class="title">Sala</ion-card-title>
+          </ion-card-header>
+        
+          <ion-item class="middle">
+            <ion-label>Off/On</ion-label>
+            <ion-toggle></ion-toggle>
+          </ion-item>
+      
+          <ion-item class="plus">
+            <ion-button expand="block" fill="clear" shape="round" routerLink="list-sala">
+              Mas...
+            </ion-button>
+          </ion-item>
+        </ion-card>
+      </th>
+
+      <!-- --- COLUMNA 2 --- --> 
+
+      <th class="idk">
+        <ion-card>
+          <ion-card-header class="header">
+            <ion-card-title class="title">Cocina</ion-card-title>
+          </ion-card-header>
+        
+          <ion-item>
+            <ion-label>Off/On</ion-label>
+            <ion-toggle></ion-toggle>
+          </ion-item>
+      
+          <ion-item>
+            <ion-button expand="block" fill="clear" shape="round">
+              Mas...
+            </ion-button>
+          </ion-item>
+        </ion-card>
+      </th>
+    </tr>
+
+    <!-- ----- FILA 2 ----- --> 
+
+    <tr>
+
+      <!-- --- COLUMNA 1 --- --> 
+
+      <th>
+        <ion-card>
+          <ion-card-header class="header">
+            <ion-card-title class="title">Garaje</ion-card-title>
+          </ion-card-header>
+        
+          <ion-item>
+            <ion-label>Off/On</ion-label>
+            <ion-toggle></ion-toggle>
+          </ion-item>
+      
+          <ion-item>
+            <ion-button expand="block" fill="clear" shape="round">
+              Mas...
+            </ion-button>
+          </ion-item>
+        </ion-card>
+      </th>
+
+      <!-- --- COLUMNA 2 --- --> 
+
+      <th>
+        <ion-card>
+          <ion-card-header class="header">
+            <ion-card-title class="title">Exterior</ion-card-title>
+          </ion-card-header>
+        
+          <ion-item>
+            <ion-label>Off/On</ion-label>
+            <ion-toggle></ion-toggle>
+          </ion-item>
+      
+          <ion-item>
+            <ion-button expand="block" fill="clear" shape="round">
+              Mas...
+            </ion-button>
+          </ion-item>
+        </ion-card>
+      </th>
+    </tr>
+
+    <!-- ----- FILA 3 ----- --> 
+
+    <tr>
+
+      <!-- --- COLUMNA 1 --- -->
+
+      <th>
+        <ion-card>
+          <ion-card-header class="header">
+            <ion-card-title class="title">Principal</ion-card-title>
+          </ion-card-header>
+        
+          <ion-item>
+            <ion-label>Off/On</ion-label>
+            <ion-toggle></ion-toggle>
+          </ion-item>
+      
+          <ion-item>
+            <ion-button expand="block" fill="clear" shape="round">
+              Mas...
+            </ion-button>
+          </ion-item>
+        </ion-card>
+      </th>
+
+      <!-- --- COLUMNA 2 --- -->
+
+      <th>
+        <ion-card>
+          <ion-card-header class="header">
+            <ion-card-title class="title">Secundario</ion-card-title>
+          </ion-card-header>
+        
+          <ion-item>
+            <ion-label>Off/On</ion-label>
+            <ion-toggle></ion-toggle>
+          </ion-item>
+      
+          <ion-item>
+            <ion-button expand="block" fill="clear" shape="round">
+              Mas...
+            </ion-button>
+          </ion-item>
+        </ion-card>
+      
+      </th>
+    </tr>
+  </table>
+
+  <!-- ----- TARJETA PASSWORD ----- -->
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>Change your password</ion-label>
+      <ion-button fill="outline" slot="end">View</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      Change password / generate temporary password
+    </ion-card-content>
+  </ion-card>
+</ion-content>
