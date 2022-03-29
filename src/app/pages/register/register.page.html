@@ -27,20 +27,20 @@
 
         <ion-item>
           <ion-label position="floating"> Email Address </ion-label>
-          <ion-input type="email" placeholder="Email" name="email"></ion-input>
+          <ion-input type="email" placeholder="Email" name="email" [(ngModel)]="user.email"></ion-input>
           <ion-icon slot="end" name="person-outline" class="ion-align-self-center"></ion-icon>
         </ion-item>
 
         <ion-item>
           <ion-label position="floating"> Password </ion-label>
-          <ion-input type="password" placeholder="Password" name="password"></ion-input>
+          <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="user.password"></ion-input>
           <ion-icon slot="end" name="person-outline" class="ion-align-self-center"></ion-icon>
         </ion-item>
 
         <br>
 
         <div class="btn">
-          <ion-button expand="block" fill="clear" shape="round">
+          <ion-button expand="block" fill="clear" shape="round" routerLink="/home">
             Register
           </ion-button>
         </div>

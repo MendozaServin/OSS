@@ -2,23 +2,6 @@
 
 <ion-content>
 
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Seguridad</ion-card-title>
-    </ion-card-header>
-  
-    <ion-item>
-      <ion-label>Off/On</ion-label>
-      <ion-toggle></ion-toggle>
-    </ion-item>
-
-    <ion-item>
-      <ion-button expand="block" fill="clear" shape="round">
-        Mas...
-      </ion-button>
-    </ion-item>
-  </ion-card>
-
   <!-- ---------- TABLA ---------- -->
   <table>
 
@@ -33,6 +16,8 @@
           <ion-card-header class="header">
             <ion-card-title class="title">Sala</ion-card-title>
           </ion-card-header>
+
+          <ion-card-subtitle>All devices</ion-card-subtitle>
         
           <ion-item class="middle">
             <ion-label>Off/On</ion-label>
@@ -40,7 +25,7 @@
           </ion-item>
       
           <ion-item class="plus">
-            <ion-button expand="block" fill="clear" shape="round" routerLink="list-sala">
+            <ion-button expand="block" fill="clear" shape="round" routerLink="/list-sala">
               Mas...
             </ion-button>
           </ion-item>
@@ -54,6 +39,8 @@
           <ion-card-header class="header">
             <ion-card-title class="title">Cocina</ion-card-title>
           </ion-card-header>
+
+          <ion-card-subtitle>All devices</ion-card-subtitle>
         
           <ion-item>
             <ion-label>Off/On</ion-label>
@@ -61,7 +48,7 @@
           </ion-item>
       
           <ion-item>
-            <ion-button expand="block" fill="clear" shape="round">
+            <ion-button expand="block" fill="clear" shape="round" routerLink="/list-cocina">
               Mas...
             </ion-button>
           </ion-item>
@@ -80,6 +67,8 @@
           <ion-card-header class="header">
             <ion-card-title class="title">Garaje</ion-card-title>
           </ion-card-header>
+
+          <ion-card-subtitle>All devices</ion-card-subtitle>
         
           <ion-item>
             <ion-label>Off/On</ion-label>
@@ -87,7 +76,7 @@
           </ion-item>
       
           <ion-item>
-            <ion-button expand="block" fill="clear" shape="round">
+            <ion-button expand="block" fill="clear" shape="round" routerLink="/list-garaje">
               Mas...
             </ion-button>
           </ion-item>
@@ -101,6 +90,8 @@
           <ion-card-header class="header">
             <ion-card-title class="title">Exterior</ion-card-title>
           </ion-card-header>
+
+          <ion-card-subtitle>All devices</ion-card-subtitle>
         
           <ion-item>
             <ion-label>Off/On</ion-label>
@@ -108,7 +99,7 @@
           </ion-item>
       
           <ion-item>
-            <ion-button expand="block" fill="clear" shape="round">
+            <ion-button expand="block" fill="clear" shape="round" routerLink="/list-exterior">
               Mas...
             </ion-button>
           </ion-item>
@@ -127,6 +118,8 @@
           <ion-card-header class="header">
             <ion-card-title class="title">Principal</ion-card-title>
           </ion-card-header>
+
+          <ion-card-subtitle>All devices</ion-card-subtitle>
         
           <ion-item>
             <ion-label>Off/On</ion-label>
@@ -134,7 +127,7 @@
           </ion-item>
       
           <ion-item>
-            <ion-button expand="block" fill="clear" shape="round">
+            <ion-button expand="block" fill="clear" shape="round" routerLink="/list-principal">
               Mas...
             </ion-button>
           </ion-item>
@@ -148,6 +141,8 @@
           <ion-card-header class="header">
             <ion-card-title class="title">Secundario</ion-card-title>
           </ion-card-header>
+
+          <ion-card-subtitle>All devices</ion-card-subtitle>
         
           <ion-item>
             <ion-label>Off/On</ion-label>
@@ -155,7 +150,7 @@
           </ion-item>
       
           <ion-item>
-            <ion-button expand="block" fill="clear" shape="round">
+            <ion-button expand="block" fill="clear" shape="round" routerLink="/list-secundario">
               Mas...
             </ion-button>
           </ion-item>
@@ -175,7 +170,7 @@
     </ion-item>
   
     <ion-card-content>
-      Change password / generate temporary password
+      Change password for access to your home
     </ion-card-content>
   </ion-card>
 </ion-content>
